@@ -1,0 +1,194 @@
+*¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navBar{
+    list-style: none;
+    background-color: #d9d9d9;
+    display: flex;
+    min-height: 4rem;
+}
+
+.navBar li a {
+    text-decoration: none;
+    padding: 1.25rem;
+    display: block;
+    color: #00536D;
+}
+
+.navBar li ¨{
+    display: inline-block;
+    text-align: center;
+}
+
+
+/* Inicio */
+
+h1 {
+    height: 5.75rem;
+    text-align: center;
+}
+
+.navBarInicio{
+    list-style: none;
+    background-color: #FBE7F8;
+    display: flex;
+    width: 21.875rem;
+    height: 3.75rem;
+    margin-left: 38.125rem;
+}
+
+.navBarInicio li a {
+    text-decoration: none;
+    padding: 1.25rem;
+    display: block;
+    color: #484849;
+}
+
+.navBarInicio li a {
+    display: inline-block;
+    text-align: center;
+}
+
+.barraDeBusquedaInicio {
+    position: relative;
+    margin-left: 38.125rem;
+}
+
+.barraDeBusquedaInicio a button{
+    background-color: #FBE7F8;
+    color: #484849;
+    border: 0;
+    height: 3.75rem;
+    width: 3.75rem;
+}
+
+.barraDeBusquedaInicio input{
+    width: 37.5rem;
+    height: 3.75rem;
+    border: 0;
+    background-color: #FBE7F8;
+    color: #484849;
+    outline: none;
+    position: absolute;
+}
+
+h2 {
+    height: 5.75rem;
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6.25rem;
+    gap: 6.25rem;
+}
+
+.card a img{
+    width: 20.3125rem;
+}
+
+.contenidocard{
+    background-color: #B0DEEE;
+    width: 20.3125rem;
+    overflow: hidden;
+    color: #003F54;
+}
+
+.contenidocard button{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-left: 15.625rem;
+    margin-bottom: 2rem;
+    color: #5B074F;
+    border: .10rem solid #5B074F;
+    border-radius: 50%;
+}
+
+.pieDePagina{
+    background-color: #484849;
+    justify-content: flex-end;
+}
+
+
+
+
+
+/* Publicacion */
+
+
+
+.conteinerGrid{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(5  1fr);
+
+}
+
+
+
+
+
+
+
+/* Perfil */
+
+.opcionesPerfil{
+    background-color: #B0DEEE;
+    height: 5.25rem;
+    width: 62.5rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    margin-left: 21.875rem;
+}
+
+.opcionesPerfil i{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-top: 2.125rem;
+    margin-bottom: 2.125rem;
+    margin-left: 2.125rem;
+    color: #003F54;
+}   
+
+.opcionesPerfil a{
+    text-decoration: none;
+    color: #003F54;
+    margin-left: 2rem;
+}
+
+
+
+
+/* Ajustes */
+
+
+.opcinesAjustes{
+    background-color: #B0DEEE;
+    height: 5.25rem;
+    width: 62.5rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    margin-left: 21.875rem;
+}
+
+.opcinesAjustes i{
+    width: 2.125rem;
+    height: 2.125rem;
+    margin-top: 2.125rem;
+    margin-bottom: 2.125rem;
+    margin-left: 2.125rem;
+    color: #003F54;
+}   
+
+.opcinesAjustes a{
+    text-decoration: none;
+    color: #003F54;
+    margin-left: 2rem;
+}
