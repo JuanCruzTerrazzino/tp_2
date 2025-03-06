@@ -1,4 +1,14 @@
-@import "./utilities/maps.scss"
-
-@import "./base/reset"
+@import "./utilities/maps";
+@import "./base/reset";
+@import "./base/titulos.scss";
+@import "./layout/footer.scss";
+@import "./components/nav.scss";
+@import "./components/card.scss";
+@import "./components/listaDeBotones.scss";
+@import "./components/grid.scss";
+@import "./components/iconos.scss";
+@import "./layout/media/media768.scss";
+@import "./layout/media/media425.scss";
+@import "./layout/media/media375.scss";
+@import "./layout/media/media320.scss";
 

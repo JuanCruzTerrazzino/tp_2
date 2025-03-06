@@ -1,0 +1,118 @@
+.card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 6.25rem;
+    gap: 6.25rem;
+    div {
+        overflow: hidden;
+        a{
+            img{
+                width: 20.3125rem;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+        div {
+            background-color: map-get($colores , celeste );
+            width: 20.3125rem;
+            overflow: hidden;
+            color: map-get($colores , azul );
+            button {
+                width: 2.125rem;
+                height: 2.125rem;
+                margin-left: 15.625rem;
+                margin-bottom: 2rem;
+                color: map-get($colores , rosaOscuro);
+                border: .10rem solid map-get($colores , rosaOscuro);
+                border-radius: 50%;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+
+.cardResultados{
+    display: flex;
+    align-items: center;
+    padding: .9375rem;
+    background-color: map-get($colores , celeste);
+    width: 93.75rem;
+    height: 16.6875rem;
+    margin-left: 10rem;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+    a {
+        img {
+            object-fit: cover;
+            margin-left: -0.925rem;
+        }
+    }
+    div {
+        p {
+            color: map-get($colores , azul);
+            margin-left: 8.25rem;
+            margin-bottom: 3.125rem;
+            margin-top: 5rem;
+            font-size: .9375rem;
+        }
+        button {
+            width: 2.125rem;
+            height: 2.125rem;
+            margin-left: 61.625rem;
+            margin-bottom: 2rem;
+            color: map-get($colores , rosaOscuro);
+            border: .10rem solid map-get($colores , rosaOscuro);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+    }
+}
+
+
+.opcionesPerfil{
+    background-color: map-get($colores , celeste);
+    height: 5.25rem;
+    width: 62.5rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    margin-left: 21.875rem;
+    i {
+        width: 2.125rem;
+        height: 2.125rem;
+        margin-top: 2.125rem;
+        margin-bottom: 2.125rem;
+        margin-left: 2.125rem;
+        color: map-get($colores , azul);
+    }
+    a {
+        text-decoration: none;
+        color: map-get($colores , azul);
+        margin-left: 2rem;
+    }
+}
+
+
+.opcinesAjustes{
+    background-color: map-get($colores , celeste);
+    height: 5.25rem;
+    width: 62.5rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+    margin-left: 21.875rem;
+    i {
+        width: 2.125rem;
+        height: 2.125rem;
+        margin-top: 2.125rem;
+        margin-bottom: 2.125rem;
+        margin-left: 2.125rem;
+        color: map-get($colores , azul);
+    }
+    a {
+        text-decoration: none;
+        color: map-get($colores , azul);
+        margin-left: 2rem;
+    }
+}

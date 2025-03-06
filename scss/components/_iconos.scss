@@ -1,0 +1,35 @@
+.conteinerIconos{
+    display: flex;
+    justify-content: center;
+    div {
+        width: 6.25rem;
+        height: 6.25rem;
+        background-color: map-get($colores , rosaClaro );
+        margin: 6.25rem;
+        gap: 13.125rem;
+        border-radius: 3.625rem;
+        i {
+            margin-top: 2.8125rem;
+            margin-left: 2.8125rem;
+            color: map-get($colores , grisOscuro);
+        }
+        p {
+            margin-top: 3.125rem;
+            margin-left: 1.325rem;
+            color: map-get($colores , grisOscuro);
+        }
+    }
+}
+
+
+.botonReservar {
+    button {
+        margin-left: 47%;
+        height: 3.125rem;
+        width: 7.5rem;
+        border: .10px solid map-get($colores , azul);
+        border-radius: 1.25rem;
+        background-color: map-get($colores , azul);
+        color: #F3F3F3;
+    }
+}

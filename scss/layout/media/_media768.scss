@@ -1,0 +1,54 @@
+@media (max-width: 768px){
+    .navBarInicio{
+        margin-left: 4rem;
+    }
+    .barraDeBusquedaInicio{
+        margin-left: 4rem;
+    }
+    .opcionesPerfil{
+        width: 43rem;
+        margin-left: 2rem;
+    }
+    .opcinesAjustes{
+        width: 43rem;
+        margin-left: 2rem;
+    }
+    .cardResultados{
+        width: 43rem;
+        height: 8rem;
+        margin-left: 1rem;
+        a {
+            img {
+                height: 9.5rem;
+            }
+        }
+        div {
+            p {
+                display: contents;
+            }
+            button {
+                margin-left: 25rem;
+                
+            }
+        }
+    }
+
+    .conteinerIconos{
+        div {
+            width: 5rem;
+            height: 5rem;
+            margin: 1.5rem;
+            i {
+                margin-top: 2rem;
+                margin-left: 2rem;
+            }
+        }
+    }
+    .botonReservar {
+        button {
+            margin-top: 3rem;
+            margin-left: 42%;
+        }
+    }
+}
+

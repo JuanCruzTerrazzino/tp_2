@@ -1,0 +1,68 @@
+.navBar{
+    list-style: none;
+    background-color: map-get($colores , grisClaro );
+    display: flex;
+    min-height: 4rem;
+    li {
+        display: inline-block;
+        text-align: center;
+        a {
+            text-decoration: none;
+            padding: 1.25rem;
+            margin-bottom: -2.1875rem;
+            display: block;
+            color:  map-get($colores , azul );
+            &:hover{
+                color: map-get($colores , rosaOscuro );
+            }
+            i {
+                display: none;
+            }
+        }
+    }
+}
+
+
+.navBarInicio{
+    list-style: none;
+    background-color: map-get($colores , rosaClaro );
+    display: flex;
+    width: 21.875rem;
+    height: 3.75rem;
+    margin-left: 38.125rem;
+    li {
+        a {
+            text-decoration: none;
+            padding: 1.25rem;
+            display: block;
+            color: map-get($colores , grisOscuro );
+            display: inline-block;
+            text-align: center;
+        }
+    }
+}
+
+
+.barraDeBusquedaInicio {
+    position: relative;
+    margin-left: 38.125rem;
+    input {
+        width: 37.5rem;
+        height: 3.75rem;
+        border: 0;
+        background-color: map-get($colores , rosaClaro );
+        color: map-get($colores , grisOscuro );
+        outline: none;
+        position: absolute;
+        cursor: pointer;
+    }
+    a {
+        button {
+            background-color: map-get($colores , rosaClaro );
+            color: map-get($colores , grisOscuro );
+            border: 0;
+            height: 3.75rem;
+            width: 3.75rem;
+        }
+    }
+}
